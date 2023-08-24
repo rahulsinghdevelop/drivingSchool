@@ -212,8 +212,8 @@ header{
 }
 @media screen and (max-width:450px){
     .carousel-review .carousel-inner img{
-        width: 20%;
-        height: 15%;
+        width: 30%;
+        height: 20%;
     }
 }
 

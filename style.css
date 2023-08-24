@@ -214,6 +214,9 @@ header{
         width: 20%;
         height: 15%;
     }
+    .carousel-review{
+        overflow: auto;
+    }
 }
 
 

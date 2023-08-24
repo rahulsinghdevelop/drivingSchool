@@ -197,14 +197,15 @@ header{
 .carousel-review .carousel-inner img{
     width: 10%;
     height: 10%;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 55%;
 }
 .carousel-review{
     background-color: dimgray;
-    
-    padding: 30px;
+    padding: 70px;
+    height: 350px;
 }
+
 .review-section{
     margin-top: 20px;
 }

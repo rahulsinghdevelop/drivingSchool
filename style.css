@@ -204,6 +204,7 @@ header{
     background-color: dimgray;
     padding: 70px;
     height: 350px;
+    overflow: hidden;
 }
 
 .review-section{
@@ -213,11 +214,6 @@ header{
     .carousel-review .carousel-inner img{
         width: 20%;
         height: 15%;
-    }
-    .carousel-review{
-        overflow: hidden;
-        
-    
     }
 }
 

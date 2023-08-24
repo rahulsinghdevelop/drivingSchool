@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootsrap Icon css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <!-- bootstrao icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ohio Driving School</title>
+</head>
+
+<body>
+    <header id="home">
+        <h3 class="text text-center fw-bolder text-white">WELCOME TO</h3>
+        <h1 class="text text-center fw-bolder text-white">OHIO SCHOOL OF DRIVING</h1>
+        <div class="container-fluid header-sec">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-main">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#home"><i class="bi bi-car-front"></i></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                                <!-- Home -->
+                            </li>
+                            <li class="nav-item" id="about-link">
+                                <a class="nav-link" href="#About">About Us</a>
+                                <!-- About US -->
+
+                            </li>
+                            <li class="nav-item" id="gallery-link">
+                                <a class="nav-link" id="gallery-link" href="#gallery">Gallery</a>
+                                <!-- Gallery -->
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#review">Review</a>
+                                <!-- Review -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-us" tabindex="-1" aria-disabled="true">Contact Us</a>
+                                <!-- Contact Us -->
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row my-5 p-5">
+            <div class="col">
+                <h4 class="text-center text-white fw-bold">LEARN SAFE,DRIVE CONFIDENTLY</h4><br>
+                <h4 class="text-center text-white fw-bold">GUIDING YOU TOWARDS ROAD MASTERY</h4>
+                <p class="text-center text-white my-3">Every journey begins with a single step on accelerator.Fuel
+                    your dreams,hit the road with passion,and let your drive take you to destinations beyond your
+                    imagination.</p>
+                <div class="text-center">
+                    <button type="button" class="btn btn-warning" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Courses</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+    <!-- Offcanvar for course button -->
+    <div class="course-offcanvas">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Courses</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Sr.N</th>
+                                <th scope="col">Vehicles</th>
+                                <th scope="col">Fees structure</th>
+                                <th scope="col">Total </th>
+                                <th scope="col">Duration</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Car</td>
+                                <td>3000*6</td>
+                                <td>18000</td>
+                                <td>6 Months</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Truck 6W</td>
+                                <td>3000*8</td>
+                                <td>24000</td>
+                                <td>8 Months</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Truck 12W</td>
+                                <td>3000*10</td>
+                                <td>30000</td>
+                                <td>10 Months</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Up Arrow -->
+    <div class="btn-up">
+        <button id="up-btn"> <i class="bi bi-arrow-bar-up"></i> </button>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- About Us -->
+    <section class="section1 my-5" id="About">
+        <h2 class="text text-center">About Us</h2>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="3.jpg" alt="">
+                </div>
+                <div class="col-md-9">
+                    <h3 class="text text-center">Hi...</h3>
+                    <p class="text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse alias
+                        sunt aspernatur facere mollitia molestias veritatis pariatur. Accusantium dolore saepe mollitia
+                        distinctio voluptates hic nobis laboriosam temporibus ipsam adipisci?</p>
+                    <span>
+                        <a href="https://www.instagram.com/llllmorningstarllll/"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-messenger"></i></a>
+                        <a href="https://tinyurl.com/2p8zcw5e"><i class="bi bi-whatsapp"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Gallery -->
+    <section class="section2 my-5" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text text-center my-3">GALLERY</h2>
+                    <marquee behavior="scroll" direction="left">
+                        <div class="img"><img src="1.jpg" alt=""></div>
+                        <div class="img"><img src="2.jpg" alt=""></div>
+                        <div class="img"><img src="4.jpg" alt=""></div>
+                        <div class="img"><img src="5.jpg" alt=""></div>
+                        <div class="img"><img src="6.jpg" alt=""></div>
+                        <div class="img"><img src="7.jpg" alt=""></div>
+                        <div class="img"><img src="8.jpg" alt=""></div>
+                        <div class="img"><img src="9.jpg" alt=""></div>
+                        <div class="img"><img src="10.jpg" alt=""></div>
+                        <div class="img"><img src="11.jpg" alt=""></div>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Review -->
+    <section id="review">
+        <div class="container">
+            <section class="review-section">
+                <div class="container carousel-review">
+                    <h3 class="text-center text-white fw-bold">Review</h3>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="1.jpg" class="d-block" alt="...">
+                                <h4 class="text text-center text-white">Alex Carey</h4>
+                                <p class="text text-center text-white">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Impedit magnam repellendus harum minus corrupti delectus quam
+                                    maiores odit quo? Dolore exercitationem sapiente soluta distinctio dolorum sint
+                                    eligendi alias nesciunt quis?</p>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="2.jpg" class="d-block " alt="...">
+                                <h4 class="text-center text-white">Micheal Jordan</h4>
+                                <p class="text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Necessitatibus perferendis, in eius velit molestias illum explicabo quisquam
+                                    ipsam officiis! Reiciendis tempore volu</p>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="7.jpg" class="d-block" alt="...">
+                                <h4 class="text-center text-white">Bruce wayne</h4>
+                                <p class="text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Officiis, debitis ullam eaque similique reiciendis laboriosam possimus unde
+                                    eveniet animi quae accusamus quidem recusandae, maiores veritatis beatae assumenda
+                                    exercitationem corrupti dolor!</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- section4 -->
+    <section class="section4" id="contact-us">
+        <div class="container">
+            <h3 class="text-center text-white fw-bold">Get In Touch</h3>
+            <div class="row">
+                <div class="col-md-5">
+                    <p class="my-3">Address: <br>
+                        Ohio main stree <br>
+                        near micheal,s colony 245563</p><br>
+                    <a href="https://www.instagram.com/llllmorningstarllll/"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-messenger"></i></a>
+                    <a href="https://tinyurl.com/2p8zcw5e"><i class="bi bi-whatsapp"></i></a>
+
+                </div>
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label"></label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter your name" aria-lable="Enter your name">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label"></label>
+                            <input type="tel" class="form-control" id="exampleInputPassword1"
+                                placeholder="Ente ypur mobile number" aria-label="Enter your mobile number">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Write about contacting</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary my-3">Submit</button>
+                        <p class="text-center text-dark fw-bold">Developed by : rahulramesh6392@gmail.com</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="driving.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,272 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+
+
+
+
+
+
+
+/* navbar css */
+.navbar{
+    position: absolute;
+    top: 97px;
+    width: 95%;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#navbar-main.header-nav{
+    position: fixed;
+    top: 0%;
+    width: 90%;
+    /* background-color: black; */
+}
+
+.navbar .navbar-brand i{
+    font-size: 25Px;
+}
+.navbar .navbar-nav .nav-link{
+    /* margin-right: 17px; */
+    color: white;
+    cursor: pointer;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: darkgray;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    /* display: block; */
+}
+.offcanvas{
+    font-family: serif;
+    font-size: 15px;
+}
+
+@media screen and (max-width:850px){
+    .navbar{
+        background-color: rgb(228, 156, 22, 0.9);
+    }
+    .navbar .navbar-nav .nav-link{
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:450px){
+    .navbar{
+        background-color: rgb(228, 156, 22, 0.9);
+    }
+    .navbar .navbar-nav .nav-link{
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Carousel css */
+.carousel{
+    margin: 30px 0;
+}
+.carousel img{
+    height: 500px;
+}
+
+/* section1 css */
+.section1{
+    background-color: white;
+    padding: 30px;
+    /* border: 2px solid black; */
+}
+.section1 img{
+    width: 100%;
+    height: 100%;
+}
+.section1 h2, h3,p{
+    font-weight: bold;
+    color: black;
+}
+.section1 i{
+    font-size: 30px;
+    color: crimson;
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 1s ease-in-out;
+}
+.section1  span{
+   margin: 0 300px;
+}
+.section1 img{
+    border-radius: 10px;
+}
+.section1 i:hover{
+    color: blue;
+    transform: scale(1.5);
+}
+@media screen and (max-width:850px){
+    .section1 span{
+        margin: 0 150px;
+    }
+    .section1 h3{
+        display: none;
+    }
+}
+@media screen and (max-width:450px){
+    .section1 span{
+        margin: 0 70px;
+    }
+    .section1 h3{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    .section1 span{
+        margin: 0 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section2 */
+.section2 .img{
+    width: 100px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 30px 20px;
+    display: inline-block;
+    transition: all 1s ease-in-out;
+    
+}
+
+  .section2 .img:hover{
+    transform: scale(0.8);
+  }
+.section2 .img img{
+    width: 100%;
+    height: 100%;
+}
+.section2{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 0;
+    
+}
+.section2 h2{
+  color: white;
+  font-weight: bold;
+}
+
+/* Review css */
+.carousel-review .carousel-inner img{
+    width: 10%;
+    height: 10%;
+    margin: 20px auto;
+    border-radius: 55%;
+}
+.carousel-review{
+    background-color: dimgray;
+    
+    padding: 30px;
+}
+.review-section{
+    margin-top: 20px;
+}
+@media screen and (max-width:450px){
+    .carousel-review .carousel-inner img{
+        width: 20%;
+        height: 15%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* contact us */
+.section4{
+    background-color: rgba(37, 21, 214, 0.3);
+    margin-top: 30px;
+    
+}
+.section4 i{
+font-size: 25px;
+font-weight: bold;
+color: blue;
+margin-left: 10px;
+transition: all 1s ease-in-out;
+}
+.section4 i:hover{
+    color: yellow;
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Up Button */
+#up-btn{
+    width: 70px;
+    height: 50px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    font-size: 30px;
+    background-color: rgb(245, 143, 11);
+    border-radius: 30px;
+    color: rgb(238, 30, 68);
+    text-align: center;
+    display: none;
+    font-weight: bold;
+}
+#up-btn:hover{
+    background-color: black;
+    color: white;
+}

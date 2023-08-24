@@ -215,7 +215,9 @@ header{
         height: 15%;
     }
     .carousel-review{
-        overflow: auto;
+        overflow: hidden;
+        height: 500px;
+        padding: 90px;
     }
 }
 

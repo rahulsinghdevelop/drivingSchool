@@ -204,7 +204,7 @@ header{
     background-color: dimgray;
     padding: 70px;
     height: 350px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .review-section{
